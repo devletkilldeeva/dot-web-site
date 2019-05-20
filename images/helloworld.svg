@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="984px" height="465px" viewBox="0 0 984 465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-copy-8" transform="translate(-196.000000, -229.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(196.000000, 161.000000)">
+                <text id="WORLD!" font-family="AvenirNext-Heavy, Avenir Next" font-size="173" font-weight="600">
+                    <tspan x="237" y="434">WORLD!</tspan>
+                </text>
+                <text id="HELLO," font-family="AvenirNext-UltraLight, Avenir Next" font-size="253" font-weight="200">
+                    <tspan x="39" y="253">HELLO,</tspan>
+                </text>
+                <circle id="Oval" style="mix-blend-mode: difference;" cx="184.5" cy="348.5" r="184.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
