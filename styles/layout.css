@@ -1,10 +1,5 @@
 body {
-  display: flex;
-  flex-direction: column;
-
   background-color: black;
-
-  justify-content: center;
 }
 
 header a {
@@ -18,48 +13,33 @@ h1, h2, p, a {
 h1 {
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-left: 10px;
+  margin-left: 20px;
 
   font-size: 25px;
-}
-
-a {
-  text-decoration: underline;
-}
-
-.blacksection a, .whitesection a {
-  transform: rotate(90deg);
-}
-
-img {
-  width: 100vw;
 }
 
 nav {
   display: flex;
 
-  padding: 10px;
+  padding: 20px;
 
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  width: 30px;
+  width: 40px;
 }
 
 .burger-menu {
-  width: 30px;
-}
-
-.helloworld {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 40px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
+
+  margin-top: 30px;
 
   text-align: left;
 
@@ -73,8 +53,12 @@ nav {
   justify-content: center;
 }
 
-.about a {
-  margin-top: 15px;
+.aboutdot {
+  margin-top: 40px;
+}
+
+.aboutme {
+  margin-top: 25px;
 }
 
 h1, h2, a {
@@ -83,23 +67,28 @@ h1, h2, a {
 }
 
 h2 {
-  font-size: 19px;
+  margin-bottom: 10px;
+
+  font-size: 18px;
 }
 
 p {
-  width: 80vw;
+  width: 90vw;
 
  text-align: left;
 
  font-family: 'PT Sans Caption', sans-serif;
   font-size: 16px;
+  line-height: 20px;
 }
 
-.pic {
-  width: 70vw;
+.pic1, .pic2 {
+  z-index: 90;
+
+  width: 80vw;
 }
 
-.whitesection, .blacksection {
+.work {
   display: flex;
   flex-direction: column;
 
@@ -107,6 +96,41 @@ p {
 
   justify-content: center;
   align-items: center;
+}
+
+.more {
+  padding-top: 270px;
+  padding-left: 70px;
+
+  transform: rotate(90deg);
+}
+
+.branding, .poster, .shop, .book, .riotdivision {
+  z-index: 100;
+
+  margin-top: 20px;
+}
+
+.branding h2, .shop h2, .riotdivision h2 {
+  color: black;
+}
+
+.branding p, .shop p, .riotdivision p {
+  color: black;
+}
+
+.branding a, .shop a, .riotdivision a {
+  color: black;
+}
+
+.rectangle {
+  z-index: -100;
+
+  width: 100vw;
+  height: 750px;
+  margin-top: -600px;
+
+  background-color: white;
 }
 
 .aboutwebposters {
@@ -117,4 +141,12 @@ p {
 
   justify-content: center;
   align-items: center;
+}
+
+.staticwebposter, .animatedwebposter {
+  width: 100vw;
+}
+
+.pic2 {
+  display: none;
 }
