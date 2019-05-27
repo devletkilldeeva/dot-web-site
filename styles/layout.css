@@ -123,6 +123,14 @@ p {
   color: black;
 }
 
+.posterwithimages {
+  margin-top: -150px;
+}
+
+.bookwithimages {
+  margin-top: -150px;
+}
+
 .rectangle {
   z-index: -100;
 
@@ -131,6 +139,10 @@ p {
   margin-top: -600px;
 
   background-color: white;
+}
+
+.rectangle:nth-child(3) {
+  margin-top: 2000px;
 }
 
 .aboutwebposters {
