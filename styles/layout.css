@@ -13,11 +13,11 @@ h1, h2, p, a {
 }
 
 h1 {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 50px;
   margin-left: 20px;
 
-  font-size: 25px;
+  font-size: 24px;
 }
 
 nav {
@@ -69,6 +69,7 @@ h1, h2, a {
 }
 
 h2 {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   font-size: 18px;
@@ -102,10 +103,7 @@ p {
 }
 
 .more {
-  padding-top: 270px;
-  padding-left: 70px;
-
-  transform: rotate(90deg);
+  margin-top: 35px;
 }
 
 .branding, .poster, .shop, .book, .riotdivision {
@@ -134,6 +132,10 @@ p {
   margin-top: -150px;
 }
 
+.shopwithimages {
+  margin-top: 150px;
+}
+
 .riotdivisionwithimages {
   margin-top: 100px;
 }
@@ -142,14 +144,10 @@ p {
   z-index: -100;
 
   width: 100vw;
-  height: 750px;
-  margin-top: -600px;
+  height: 600px;
+  margin-top: -320px;
 
   background-color: white;
-}
-
-.rectangle:nth-child(3) {
-  margin-top: 2000px;
 }
 
 .aboutwebposters {
@@ -171,6 +169,10 @@ p {
 
 .static, .animated {
   margin-bottom: 50px;
+}
+
+.static a, .animated a {
+  margin-left: 15px;
 }
 
 .pic2 {
