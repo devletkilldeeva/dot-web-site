@@ -85,7 +85,7 @@ p {
   line-height: 20px;
 }
 
-.pic1, .pic2 {
+.pic1x-1, .pic1x-2 {
   z-index: 90;
 
   width: 80vw;
@@ -175,7 +175,7 @@ p {
   margin-left: 15px;
 }
 
-.pic2 {
+.pic1x-2 {
   display: none;
 }
 
@@ -200,7 +200,7 @@ p {
     margin-top: -100px;
   }
 
-  .pic1, .pic2 {
+  .pic2x-1, .pic2x-2 {
     width: 30vw;
     margin-left: -67px;
   }
