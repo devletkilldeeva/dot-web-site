@@ -8,8 +8,12 @@ header a {
   display: none;
 }
 
-h1, h2, p, a {
+.aboutdot p, .aboutdot a {
   color: white;
+}
+
+a:hover {
+  color: #E800E1;
 }
 
 h1 {
@@ -68,6 +72,10 @@ h1, h2, a {
  font-weight: bold;
 }
 
+h1 {
+  color: white;
+}
+
 h2 {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -85,11 +93,18 @@ p {
   line-height: 20px;
 }
 
+.paragraph h2, .paragraph p, .paragraph a {
+  margin-left: 15px;
+
+  color: black;
+}
+
 .pic1x-1, .pic1x-2 {
   z-index: 90;
 
   width: 80vw;
-  margin-left: 16px;
+  /* margin-top: -100px; */
+  /* margin-left: 16px; */
 }
 
 .work {
@@ -102,45 +117,17 @@ p {
   align-items: center;
 }
 
+
 .more {
   margin-top: 35px;
 }
 
-.branding, .poster, .shop, .book, .riotdivision {
-  z-index: 100;
-
-  margin-top: 20px;
+.more a:hover {
+  color: #E800E1;
 }
 
-.branding h2, .shop h2, .riotdivision h2 {
-  color: black;
-}
-
-.branding p, .shop p, .riotdivision p {
-  color: black;
-}
-
-.branding a, .shop a, .riotdivision a {
-  color: black;
-}
-
-.posterwithimages {
-  margin-top: -150px;
-}
-
-.bookwithimages {
-  margin-top: -150px;
-}
-
-.shopwithimages {
-  margin-top: 150px;
-}
-
-.riotdivisionwithimages {
-  margin-top: 100px;
-}
-
-.rectangle {
+.rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5 {
+  position: absolute;
   z-index: -100;
 
   width: 100vw;
@@ -162,8 +149,13 @@ p {
   align-items: center;
 }
 
+.aboutwebposters p {
+  color: white;
+}
+
 .staticwebposter, .animatedwebposter {
   width: 100vw;
+  width: 60vw;
   margin-bottom: 20px;
 }
 
@@ -173,6 +165,12 @@ p {
 
 .static a, .animated a {
   margin-left: 15px;
+
+  color: white;
+}
+
+.static a:hover, .animated a:hover {
+  color: #E800E1;
 }
 
 .pic1x-2 {
@@ -180,42 +178,151 @@ p {
 }
 
 @media (min-width: 768px) {
-  .about img {
-    width: 70vw;
-  }
-
-  h2 {
-    margin-left: 250px;
+  h1 {
+    font-size: 57px;
   }
 
   p {
     width: 50vw;
-    margin-left: 250px;
 
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 24px;
   }
 
-  .branding {
-    margin-top: -100px;
+  a {
+    font-size: 22px;
   }
 
-  .pic2x-1, .pic2x-2 {
-    width: 30vw;
-    margin-left: -67px;
+  .pic1x-2 {
+    display: flex;
   }
 
-  .more {
-    padding-left: 250px;
+
+  .rectangles {
+    position: absolute;
+    z-index: -100;
   }
 
-  .rectangle {
-    height: 600px;
-    margin-top: -470px;
+  .rectangle1 {
+  height: 945px;
+  margin-top: 50px;
+
+  background-color: white;
+ }
+
+  .rectangle2 {
+    height: 800px;
+    margin-top: 2065px;
+
+    background-color: white;
   }
 
-  .posterwithimages {
-    margin-top: -30px;
+  .rectangle3 {
+    height: 1050px;
+    margin-top: 3705px;
+
+    background-color: white;
   }
 
+  .work {
+  display: grid;
+
+    width: 100vw;
+    margin-top: 100px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.pic1x-1, .pic1x-2 {
+  width: 284px;
+}
+
+.pic1x-1 {
+  margin-top: -40px;
+  margin-left: -7px;
+
+  grid-column: 1/4;
+}
+
+.pic1x-1:nth-child(2) {
+  margin-top: -50px;
+}
+
+.pic1x-2 {
+  margin-top: 300px;
+  margin-left: 50px;
+
+  grid-column: 3;
+}
+
+.paragraph {
+  width: 40vw;
+ margin-top: -350px;
+
+ grid-column: 2;
+}
+
+.poster h2, .poster p, .poster a {
+  color: white;
+}
+
+.book h2, .book p, .book a {
+  color: white;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.addition {
+  display: flex;
+  flex-direction: column;
+}
+
+.animated {
+  display: flex;
+}
+
+.animatedwebposter {
+  float: right;
+}
+
+.addition p {
+  width: 70vw;
+  margin-left: -25vw;
+}
+
+.footer {
+  height: 350px;
+
+  background-color: white;
+}
+
+.links {
+  width: 400px;
+  padding-top: 10vw;
+  padding-left: 20vw;
+}
+
+.links ul li {
+  margin-top: 20px;
+}
+
+.links ul li a {
+  text-transform: uppercase;
+
+  color: #E800E1;
+}
+
+.animated a {
+  margin-top: 220px;
+}
+
+}
+
+@media (min-width: 1024px) {
+  .pic1x-1, .pic1x-2 {
+    width: 380px;
+  }
 }
