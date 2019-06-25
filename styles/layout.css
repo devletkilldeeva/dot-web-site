@@ -302,9 +302,19 @@ h2 {
 }
 
 .footer {
+  display: flex;
+
   height: 350px;
 
   background-color: white;
+}
+
+.author {
+  padding-top: 13vw;
+}
+
+.author p {
+  color: #E800E1;
 }
 
 .links {
