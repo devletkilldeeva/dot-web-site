@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="466px" height="597px" viewBox="0 0 466 597" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-1147.000000, -158.000000)">
+            <g id="Group-4" transform="translate(1147.000000, 158.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="24" y="26" width="416" height="545"></rect>
+                <g id="Group-5" transform="translate(117.000000, 163.000000)" fill="#CF00C8">
+                    <path d="M102,272 C45.6661243,272 0,226.332705 0,170.000754 C0,113.667295 45.6661243,68 102,68 C158.332367,68 204,113.667295 204,170.000754 C204,226.332705 158.332367,272 102,272 Z" id="Fill-1"></path>
+                    <path d="M231,50 C231,77.6146596 208.61466,100 181,100 C153.38534,100 131,77.6146596 131,50 C131,22.3853404 153.38534,0 181,0 C208.61466,0 231,22.3853404 231,50" id="Fill-3"></path>
+                </g>
+                <rect id="Rectangle" fill-opacity="0.5" fill="#DADADA" style="mix-blend-mode: difference;" transform="translate(26.518008, 28.818014) rotate(-39.000000) translate(-26.518008, -28.818014) " x="2.51800796" y="16.3180139" width="48" height="25"></rect>
+                <rect id="Rectangle-Copy-5" fill-opacity="0.5" fill="#DADADA" style="mix-blend-mode: difference;" transform="translate(439.518008, 570.818014) rotate(-39.000000) translate(-439.518008, -570.818014) " x="415.518008" y="558.318014" width="48" height="25"></rect>
+                <rect id="Rectangle-Copy-6" fill-opacity="0.5" fill="#DADADA" style="mix-blend-mode: difference;" transform="translate(26.809398, 570.809398) rotate(45.000000) translate(-26.809398, -570.809398) " x="2.80939751" y="558.309398" width="48" height="25"></rect>
+                <rect id="Rectangle-Copy-7" fill-opacity="0.5" fill="#DADADA" style="mix-blend-mode: difference;" transform="translate(438.809398, 25.809398) rotate(45.000000) translate(-438.809398, -25.809398) " x="414.809398" y="13.3093975" width="48" height="25"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

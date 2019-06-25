@@ -99,6 +99,10 @@ p {
   color: black;
 }
 
+.more1440 {
+  display: none;
+}
+
 .pic1x-1, .pic1x-2 {
   z-index: 90;
 
@@ -191,6 +195,10 @@ p {
 
   a {
     font-size: 22px;
+  }
+
+  .paragraph h2, .paragraph p, .paragraph a {
+    margin-left: 0px;
   }
 
   .pic1x-2 {
@@ -322,7 +330,326 @@ h2 {
 }
 
 @media (min-width: 1024px) {
+  .logo {
+    width: 60px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  header a {
+    display: flex;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
   .pic1x-1, .pic1x-2 {
-    width: 380px;
+    width: 400px;
+  }
+
+  .pic1x-2 {
+    margin-top: 200px;
+  }
+
+  .pic1x-1:nth-of-type(5) {
+    width: 500px;
+  }
+
+  .pic1x-1:nth-of-type(6) {
+    width: 500px;
+  }
+
+  .rectangle1 {
+  height: 1150px;
+  margin-top: 50px;
+
+  background-color: white;
+  }
+
+  .rectangle2 {
+    height: 1072px;
+    margin-top: 2490px;
+
+    background-color: white;
+  }
+
+  .rectangle3 {
+    height: 1100px;
+    margin-top: 4525px;
+
+    background-color: white;
+  }
+
+  .paragraph {
+    grid-column: 3;
+  }
+
+  p {
+    width: 35vw;
+
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  a {
+    font-size: 25px;
+  }
+
+  .paragraph p {
+    padding-top: 20px;
+  }
+
+  .shop {
+    padding-top: 150px;
+  }
+
+  .staticwebposter {
+    margin-bottom: 0px;
+  }
+
+  .animatedwebposter {
+    margin-left: 70px;
+}
+
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    width: 80px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .about img {
+    width: 70vw;
+    margin-top: 100px;
+  }
+
+  .aboutdot p, .aboutdot a {
+    margin-left: 180px;
+  }
+
+  .pic1x-2 {
+    width: 400px;
+  }
+
+  .pic1x-1 {
+    width: 500px;
+    margin-bottom: 100px;
+  }
+
+  .pic1x-2 {
+    margin-top: 0px;
+    margin-left: 125px;
+  }
+
+  h1 {
+    margin-top: 150px;
+    margin-left: 50px;
+
+    font-size: 60px;
+  }
+
+  h2 {
+    margin-top: 0px;
+
+    font-size: 45px;
+  }
+
+  p {
+    width: 30vw;
+
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+ a {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    margin-left: -200px;
+  }
+
+  .rectangle1 {
+  height: 1220px;
+  margin-top: 50px;
+
+  background-color: white;
+  }
+
+  .rectangle2 {
+    height: 975px;
+    margin-top: 2630px;
+
+    background-color: white;
+  }
+
+  .rectangle3 {
+    height: 1100px;
+    margin-top: 4600px;
+
+    background-color: white;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .more1440 {
+    display: flex;
+
+    grid-column: 1;
+  }
+
+  .more1440 a:hover {
+    color: #E800E1;
+  }
+
+  .more1440 a {
+    padding-left: 150px;
+
+    color: black;
+
+    font-size: 35px;
+  }
+
+  .more1440white a {
+    padding-left: 150px;
+
+    color: white;
+
+    font-size: 35px;
+  }
+
+  .more1440white a:hover {
+    color: #E800E1;
+  }
+
+  .staticwebposter {
+    margin-left: 150px;
+  }
+
+  .animatedwebposter {
+    margin-left: 20px;
+  }
+
+  .animated a {
+    margin-left: 100px;
+  }
+
+  .me {
+    width: 50vw;
+    margin-left: 50px;
+
+    color: white;
+  }
+
+  .avatar {
+    width: 40vw;
+    margin-top: 50px;
+  }
+
+  .hello {
+    display: flex;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .goals p {
+    width: 90vw;
+    margin-top: 50px;
+
+    color: white;
+
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .menu ul a {
+    text-decoration: none;
+
+    color: white;
+
+    font-weight: normal;
+  }
+
+  .menu ul a:hover {
+    text-decoration: overline;
+
+    color: blue;
+  }
+
+  .one {
+    margin-bottom: 50px;
+  }
+
+  .two {
+    width: 30vw;
+
+    text-align: right;
+  }
+
+  .three {
+    margin-bottom: 50px;
+  }
+
+  .twodots {
+    float: right;
+
+    margin-left: 70px;
+  }
+
+  .sausage {
+    margin-top: 60px;
+  }
+
+  .moodboardimg {
+    width: 100vw;
+    margin-top: 50px;
+  }
+
+  .mainsection h2 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    color: white;
+  }
+
+  .logoprocess, .palette, .fonts, .elements, .signboards, .businesscards, .exhibition {
+    margin-bottom: 70px;
+  }
+
+  .elements, .signboards, .businesscards, .exhibition {
+    width: 100vw;
+  }
+
+  .brandingpic, .posterpic {
+    margin-top: 50px;
   }
 }
