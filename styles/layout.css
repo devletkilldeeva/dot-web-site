@@ -649,7 +649,23 @@ h2 {
     width: 100vw;
   }
 
-  .brandingpic, .posterpic {
+  .pic {
     margin-top: 50px;
+  }
+
+  .postergrid {
+    display: grid;
+
+    margin-top: 50px;
+    margin-left: 20px;
+
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  .poster {
+    width: 430px;
   }
 }
