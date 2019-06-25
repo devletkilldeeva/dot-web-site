@@ -668,4 +668,90 @@ h2 {
   .poster {
     width: 430px;
   }
+
+  .shopgrid {
+    display: grid;
+
+    width: 100vw;
+    margin-top: 50px;
+
+    grid-gap: 30px;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%;
+  }
+
+  .shop1, .shop2 {
+    width: 900px;
+  }
+
+  .shop1{
+    margin-left: 20px;
+
+    grid-column: 1;
+  }
+
+  .shop3 {
+    width: 600px;
+
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .shop2 {
+    grid-row: 3;
+    grid-column: 4;
+  }
+
+  .navigationgrid {
+    display: grid;
+
+    margin-top: 50px;
+
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-gap: 50px;
+  }
+
+  .nav1 {
+    width: 500px;
+    padding-left: 100px;
+
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .nav2 {
+    height: 709px;
+    margin-left: -130px;
+
+    grid-column: 5;
+    grid-row: 1;
+  }
+
+  .nav3 {
+    width: 500px;
+    margin-left: -100px;
+
+    grid-column: 4;
+    grid-row: 2;
+  }
+
+  .nav4 {
+    width: 500px;
+    margin-left: 90px;
+
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .bookpic {
+    width: 100vw;
+  }
+
+  .bookpic:nth-of-type(1) {
+    margin-top: 50px;
+  }
+
+  .bookpic + .bookpic {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
 }
