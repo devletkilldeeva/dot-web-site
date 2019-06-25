@@ -323,9 +323,9 @@ h2 {
   color: #E800E1;
 }
 
-.animated a {
+/* .animated a {
   margin-top: 220px;
-}
+} */
 
 }
 
@@ -753,5 +753,14 @@ h2 {
   .bookpic + .bookpic {
     margin-top: 50px;
     margin-bottom: 10px;
+  }
+
+  .rd {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .rd:first-of-type {
+    margin-top: 50px;
   }
 }
